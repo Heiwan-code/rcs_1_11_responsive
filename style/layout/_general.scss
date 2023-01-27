@@ -1,0 +1,29 @@
+.layout {
+    &--absolute-center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    &--flex {
+        display: flex;
+        // default
+        // flex-direction: row;
+    }
+
+    &--flex-vertical {
+        display: flex;
+        flex-direction: column;
+    }
+    &--main-axis-center {
+        justify-content: center;
+    }
+    &--cross-axis-center {
+        align-items: center;
+    }
+
+    &--push-left {
+        margin-left: auto;
+    }
+}

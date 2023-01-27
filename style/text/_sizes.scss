@@ -1,0 +1,36 @@
+html {
+    // 1 rem == 16px
+    // 2 rem == 32px 
+    // font-size: 16px;
+}
+
+.text {
+    &--tiny {
+        // 10px
+        font-size: 10px;
+    }
+
+    &--massive {
+        // 80px
+        font-size: 5rem;
+    }
+    
+}
+
+// mobile fonts
+@media (max-width:360px) {
+    .text {
+        &--tiny {
+            font-size: 9px;
+        }
+
+        &--massive {
+            font-size: 32px;
+        }
+    }
+}
+
+
+// @mixin width($value) {
+//     width: ($value / 16) + rem;
+// }

@@ -1,0 +1,13 @@
+.landing-banner {
+    .layout--absolute-center {
+        width: 100%;
+    }
+    .text-wrapper {
+        width: 50%;
+        min-width: 350px;
+        max-width: 800px;
+        &:first-child {
+            margin-bottom: 1rem;
+        }
+    }
+}
